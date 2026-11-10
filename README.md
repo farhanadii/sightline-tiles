@@ -13,7 +13,15 @@ Built by `build_tiles.py` and `build_tiles_overture.py` in the Sightline project
   outline (`r`: `[[lat, lng], ...]`, or `q`: steps of 0.00001 degrees from the previous corner),
   and when known an address `a`, suburb `s`, name `n` and number of levels `l`.
 
+- `area/sydney.json`: rents and sale prices by postcode (last two quarters), each suburb's postcode,
+  and the list of `area/da/` squares. `area/da/x_y.json` (0.01 degree squares): development
+  applications as `[lat, lng, address, what, status, cost, new dwellings, storeys, lodged]`.
+
 ## Sources and licences
+- Rents and sale prices: NSW Rent and Sales Report, NSW Department of Communities and Justice,
+  CC BY 4.0.
+- Development applications: NSW Planning Portal Online DA Data API, NSW Department of Planning,
+  Housing and Infrastructure, CC BY 4.0.
 - © OpenStreetMap contributors, ODbL 1.0 (City of Sydney buildings).
 - © Overture Maps Foundation, ODbL 1.0, including OpenStreetMap and machine-detected building
   footprints (suburban buildings).
@@ -22,4 +30,4 @@ Built by `build_tiles.py` and `build_tiles_overture.py` in the Sightline project
 
 These tiles are a derived database and are shared under the same ODbL 1.0 licence.
 
-Only open data is here: no property values, sales, rents or Microburbs data.
+Only open data is here: no Microburbs data and no Sightline estimates.
