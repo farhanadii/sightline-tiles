@@ -11,7 +11,8 @@ Built by `build_tiles.py` and `build_tiles_overture.py` in the Sightline project
   `x` as `[first, count, ...]`. A tile key is `x_y` = `floor(lng / tile)_floor(lat / tile)`.
 - `tiles/x_y.json`: `{"b": [buildings], "p": [address points]}`. A building has an `id`, an
   outline (`r`: `[[lat, lng], ...]`, or `q`: steps of 0.00001 degrees from the previous corner),
-  and when known an address `a`, suburb `s`, name `n` and number of levels `l`.
+  and when known an address `a`, suburb `s`, name `n`, number of levels `l`, OSM building type `t`, and for
+  blocks the number of homes `u` with their unit numbers `w` (from G-NAF).
 
 - `area/sydney.json`: rents and sale prices by postcode (last two quarters), each suburb's postcode,
   and the list of `area/da/` squares. `area/da/x_y.json` (0.01 degree squares): development
