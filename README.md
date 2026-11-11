@@ -17,7 +17,11 @@ Built by `build_tiles.py` and `build_tiles_overture.py` in the Sightline project
   and the list of `area/da/` squares. `area/da/x_y.json` (0.01 degree squares): development
   applications as `[lat, lng, address, what, status, cost, new dwellings, storeys, lodged]`.
 
+- `area/postcodes.geojson`: postal areas with each postcode's typical unit and house sale (`unit`, `house`),
+  for the app's price map.
+
 ## Sources and licences
+- Postal areas: Australian Bureau of Statistics, ASGS 2021, CC BY 4.0.
 - Rents and sale prices: NSW Rent and Sales Report, NSW Department of Communities and Justice,
   CC BY 4.0.
 - Development applications: NSW Planning Portal Online DA Data API, NSW Department of Planning,
