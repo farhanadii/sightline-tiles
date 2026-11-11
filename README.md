@@ -21,6 +21,9 @@ Built by `build_tiles.py` and `build_tiles_overture.py` in the Sightline project
 - `area/postcodes.geojson`: postal areas with each postcode's typical unit and house sale (`unit`, `house`),
   for the app's price map.
 
+- `area/stations.json`: train, metro, light rail and ferry stops with their services; `area/bus/x_y.json`:
+  bus stops per 0.01 degree square; `area/routes/<id>.json`: each service's path (from OpenStreetMap).
+
 ## Sources and licences
 - Postal areas: Australian Bureau of Statistics, ASGS 2021, CC BY 4.0.
 - Rents and sale prices: NSW Rent and Sales Report, NSW Department of Communities and Justice,
